@@ -137,13 +137,18 @@ main {
     
 }
 
+.seccion-2 h6 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
 .seccion-2 img {
 
     
     max-width: 80%;
     height: 80%;
     padding-bottom: 20px; 
-    padding-top: 50px;
+    padding-top: 30px;
     position: relative;
     
     
@@ -156,7 +161,7 @@ h3 {
     margin-bottom: 50px;
     padding-left: 30px;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     
     
 }
@@ -180,6 +185,7 @@ h3 {
     margin: auto;
     height: 500px;
     width: 400px;
+    margin-bottom: 15px;
     
 }
 
@@ -219,6 +225,7 @@ h4 {
     width: 400px;
     position: relative;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .trabajo2 img {
@@ -255,6 +262,7 @@ p {
     width: 400px;
     position: relative;
     margin: 0 auto; 
+    margin-bottom: 15px;
     
 }
 
@@ -293,7 +301,7 @@ p {
     width: 400px;
     position: relative;
     margin: 0 auto; 
-    
+    margin-bottom: 15px;
 }
 
 .trabajo4 img {
@@ -566,7 +574,7 @@ h5 {
         font-size:25px;
         line-height: normal; 
         position: relative;
-        top: 24px;
+        top: 15px;
     }
   
     
@@ -622,10 +630,19 @@ h5 {
     }
 
     .imgpersonal {
+
+        
+        margin-top: 20px;
         justify-content:center;
         
         
     }
+
+    .seccion-2 h6 {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+    
 
     .seccion-2 img {
 
@@ -638,21 +655,13 @@ h5 {
     }
 
     h3 {
-        margin-top: 30px;
+       
         margin-bottom: 30px;
         text-align: left;
         
         
     }
 
-    .seccion-2 img {
-
-        padding-top: 50px;
-        padding-bottom: 10px;
-        position: relative;
-        
-        
-    } 
 
 }
     /* Estilos para pantallas más grandes (a partir de 769px) */
