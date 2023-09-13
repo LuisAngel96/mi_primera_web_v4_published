@@ -86,6 +86,12 @@ main {
         
 }
 
+.greeting {
+    
+    font-size: 30px;
+    background-color: blue;
+}
+
 .seccion-1 {
     display: flex;
     justify-content: center;
