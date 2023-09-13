@@ -1,0 +1,604 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+body{
+    background-color: #d8cfcf;
+      
+}
+
+/*ESTILOS GENERALES*/
+
+.fuente-clara {color: #eeeeee;}
+.fuente-oscura{color: #22211f;}
+.fuente-acento{color: #b59a61;}
+nav ul li a {color: #eeeeee;}
+
+/* ENCABEZADO */
+
+#encabezado {
+
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background: rgba(34, 33, 31, 0.85); 
+    padding: 10px; 
+    
+}
+
+
+
+header h1 {
+
+    display: inline-block;
+    line-height: 70px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+header nav { 
+    float: right;
+    color: #eeeeee;
+    font-size: 18px;
+    
+    
+}
+
+nav ul li {
+    display:inline-flex;
+    margin-right: 20px;
+    line-height: 100px;
+    
+    
+    
+    
+}
+
+nav a {
+    padding: 5px;
+   
+}
+
+nav a:hover {
+    color: #b59a61;
+}
+
+
+/* CENTRO */
+
+main {
+
+    
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    top: 130px;
+    text-align: center;
+    clear: both;
+    
+    
+        
+}
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    
+    
+}
+
+.seccion-1 h2 {
+
+    font-size: 30px;
+    margin: 5px;
+    
+    
+}
+
+.text1 {
+
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+    padding-right: 20px;
+   
+}
+
+.text1 p {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+.imgpersonal {
+
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.seccion-2 {
+
+    clear: both;
+    font-size: 30px;
+    position: relative;
+    flex-wrap: wrap;
+   
+    
+}
+
+.seccion-2 img {
+
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px; 
+    padding-top: 50px;
+    position: relative;
+    
+    
+}
+
+/*SECCION DE TRABAJOS*/
+
+h3 {
+    margin-top: 50;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    font-size: 30px;
+    
+}
+
+.seccion-4 {
+    
+    
+    display: flex;
+    padding-bottom: 150px;
+    font-size: 20px;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.trabajo1 {
+
+    background-color: #c0c0c0ce;
+    position: relative;
+    margin: auto;
+    height: 500px;
+    width: 400px;
+    
+}
+
+.trabajo1 img {
+    position: relative;
+    right: 10px;
+    
+}
+
+h4 {
+    padding-top: 5%;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.textinfo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    padding-left: 20px;
+    
+}
+
+.leer-mas :hover {
+    text-align: left;
+    color: #b59a61;
+
+}
+
+
+.trabajo2 {
+    background-color: #c0c0c0ce;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.trabajo2 img {
+    position: inherit;
+    right: 10px;
+}
+
+h4 {
+    padding-top: 5%;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.leer-mas {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.trabajo3 {
+    background-color: #c0c0c0ce;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    margin: 0 auto; 
+    
+}
+
+.trabajo3 img {
+    position: inherit;
+    right: 10px;
+}
+
+h4 {
+    padding-top: 5%;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.leer-mas {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.seccion-4 img {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+
+/*PIE DE PAGINA*/
+
+footer {
+
+    
+    width: 100%;
+    background: #9098a0;
+    text-align: center;
+    padding: 25px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-top: 50px;
+    font-size: 22px;
+    line-height: 30px;
+    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+h5 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.contacto nav {
+
+    color: #eeeeee;
+    align-items: center;
+    
+    
+}
+
+.contacto nav ul li {
+    
+    display: grid;
+    margin: 2px;
+    line-height: 15px;
+}
+
+
+
+/*MENU*/
+#check {
+    display:none;
+    
+    
+}
+
+.checkbtn {
+    
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display:none;
+    
+}
+
+
+/*FORMULARIO CSS*/
+
+
+  .form-header {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 60%;
+    margin: 10px auto;
+    padding: 30px;
+  }
+  
+  .form-header h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .form-header p {
+    font-size: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 50%;
+    padding: 20px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+.form-row  {
+    font-size: 16px;
+}
+
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 16px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    pequeñas */
+    
+    header h1 {
+        font-size:25px;
+        line-height: normal; 
+        position: relative;
+        top: 24px;
+    }
+  
+    
+           
+    .checkbtn {
+        display: block;
+    }
+    
+    #encabezado ul {
+        position: fixed;
+        width: 100%;
+        height: 80vh;
+        background:#22211f;
+        top: 100px;
+        left: 100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    #check:checked ~ ul {
+        left: 0%;
+        display: block;
+    }
+    #encabezado nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    #encabezado nav ul li a {
+        font-size: 20px;
+    }
+
+    main {
+        top:130px;
+        
+       
+    }
+
+    .text1 {
+        display: inline-block;
+        
+        text-align: center;
+        margin: 0px;
+        
+    }
+     
+    .text1 p {
+        display: inline-block;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .imgpersonal {
+        justify-content:center;
+        
+        
+    }
+
+    .seccion-2 img {
+
+        align-content: center;
+        max-width: 80%;
+        height: auto;
+        padding-bottom: 20px; 
+        padding-top: 10px;
+        position: relative;
+    }
+
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        
+        
+    }
+
+    .seccion-2 img {
+
+        padding-top: 50px;
+        padding-bottom: 10px;
+        position: relative;
+        
+        
+    } 
+
+}
+    /* Estilos para pantallas más grandes (a partir de 769px) */
+    @media (min-width: 769px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    grandes */
+    
+    main {
+        top:150px;
+        
+       
+    }
+    .text1 {
+        display: inline-block;
+        font-size: 20px;
+        text-align: center;
+        
+        
+    }
+
+    .text1 h2 {
+        font-size: 40px;
+    }
+
+    .text1 p {
+        display: inline-block;
+        text-align: center;
+        
+    }
+
+}
+
+
